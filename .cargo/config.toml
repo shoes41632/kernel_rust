@@ -1,0 +1,6 @@
+[build]
+target = "x86_64_kernel.json"
+
+[unstable]
+json-target-spec = true
+build-std = ["core", "compiler_builtins"]
